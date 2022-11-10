@@ -7,7 +7,7 @@
 --    c13 INT
 --    c14 DATE
 --    c15 FLOAT
---    c16 CHAR(4)
+--    c16 CHAR(4)   
 -- 
 --  Escriba una consulta que retorne la cantidad de registros
 --  de la tabla `tbl1`.
@@ -18,3 +18,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT COUNT (*)
+	FROM tbl1;
