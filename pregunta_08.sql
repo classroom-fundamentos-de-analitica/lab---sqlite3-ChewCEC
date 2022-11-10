@@ -41,3 +41,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT strftime('%Y', c4),avg(c2) 
+FROM tbl2 GROUP BY strftime('%Y', c4)

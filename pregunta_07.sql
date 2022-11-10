@@ -42,4 +42,8 @@
 --  12  C  24  482.32  300  2019-05-03  0.11  CCCE
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
---
+
+SELECT * FROM tbl1
+WHERE c1 is NOT 'A' and c1 IS NOT 'B' AND c4 is NOT 200  AND c4 is NOT 900
+ORDER BY
+	c5 ASC

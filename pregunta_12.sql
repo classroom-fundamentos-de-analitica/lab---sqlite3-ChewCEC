@@ -42,3 +42,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT c1, MAX(c3), MIN(c3) FROM tbl1
+GROUP by c1
