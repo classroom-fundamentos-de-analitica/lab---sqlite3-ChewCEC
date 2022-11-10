@@ -40,3 +40,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT c1,C7
+from tbl1
+WHERE c1 = SUBSTR(c7,1,1)
+

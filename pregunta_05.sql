@@ -41,3 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT *
+from tbl0
+WHERE c3 = 100 OR c3 = 600;

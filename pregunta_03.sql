@@ -22,3 +22,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT *
+FROM tbl1
+ORDER BY c5 LIMIT 0,5;
