@@ -40,7 +40,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT c1,C7
+SELECT k0, c16
 from tbl1
-WHERE c1 = SUBSTR(c7,1,1)
+WHERE k0 = SUBSTR(c16,1,1)
 

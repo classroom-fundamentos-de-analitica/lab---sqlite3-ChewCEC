@@ -44,6 +44,6 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 
 SELECT * FROM tbl1
-WHERE c1 is NOT 'A' and c1 IS NOT 'B' AND c4 is NOT 200  AND c4 is NOT 900
+WHERE k0 is NOT 'A' and k0 IS NOT 'B' AND c13 is NOT 200  AND c13 is NOT 900
 ORDER BY
-	c5 ASC
+	c14 ASC

@@ -38,5 +38,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT strftime('%Y', c5), COUNT(strftime('%Y', c5)) 
-FROM tbl1 WHERE strftime('%Y', c5) = '2018'
+SELECT strftime('%Y', c23), COUNT(strftime('%Y', c23)) 
+FROM tbl1 WHERE strftime('%Y', c23) = '2018'

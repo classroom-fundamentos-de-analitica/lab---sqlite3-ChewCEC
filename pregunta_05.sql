@@ -43,4 +43,4 @@
 --  
 SELECT *
 from tbl0
-WHERE c3 = 100 OR c3 = 600;
+WHERE c02 = 100 OR c02 = 600;

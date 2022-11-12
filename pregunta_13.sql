@@ -43,6 +43,6 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT c1, avg(c3) from tbl1
-WHERE c3 > 400
-GROUP by c1
+SELECT k0, avg(c12) from tbl1
+WHERE c12 > 400
+GROUP by k0

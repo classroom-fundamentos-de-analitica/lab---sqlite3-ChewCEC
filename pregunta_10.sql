@@ -43,4 +43,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT * FROM tbl0
-WHERE c3 >= 300 
+WHERE c02 >= 300 
