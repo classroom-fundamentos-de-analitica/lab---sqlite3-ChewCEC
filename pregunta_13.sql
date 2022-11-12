@@ -45,4 +45,4 @@
 --  
 SELECT k0, avg(c12) from tbl1
 WHERE c12 > 400
-GROUP by k0
+GROUP by k0;
