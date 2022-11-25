@@ -1,4 +1,4 @@
--- 
+
 --  La tabla `tbl1` tiene la siguiente estructura:
 -- 
 --    K0  CHAR(1)
@@ -17,3 +17,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+
+SELECT SUM(c12) FROM tbl1;  
